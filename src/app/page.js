@@ -25,6 +25,10 @@ export default function Home() {
                     />
                   </a>
                 </div>
+                <span className="w-[71%]">
+                  Halo, saya merupakan seorang backend developer yang memiliki
+                  pengelaman 1 tahun
+                </span>
               </div>
             </div>
           </div>
