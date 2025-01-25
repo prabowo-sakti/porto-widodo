@@ -1,4 +1,5 @@
 import GithubIcon from "@/components/GithubIcon";
+import PlaceHome from "@/components/PlaceHome";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,22 +27,29 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <p className="w-[71%]">
+              <p className="w-[71%] pt-2">
                 Halo, saya merupakan seorang backend developer yang memiliki
                 pengelaman 1 tahun,{" "}
                 <span className="text-blue-400">
                   <Link href="/about-me">Read more...</Link>
                 </span>
               </p>
+              <div className="flex gap-2 flex-row pt-3">
+                {" "}
+                <PlaceHome /> <p>Jawa Timur, Indonesia</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex gap-10 flex-col text-sm">
+        <div
+          className="flex gap-10 flex-col text-sm px-10 pt-10
+          items-center  "
+        >
           <Image
             className="rounded-full"
             src="/widodo.jpg"
-            width={100}
-            height="100"
+            width={145}
+            height={145}
             alt="Foto profil"
           />
           <a href="https://github.com/bozid95" target="_blank">
