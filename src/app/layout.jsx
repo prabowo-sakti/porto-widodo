@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={` ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-[#181818] border-[0.1px] border-white-500 w-[638px] h-screen m-auto rounded-xl fixed top-[56.3%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
+        <div className="flex bg-[#181818] border-[0.1px] border-white-500 w-[638px] h-[905px] m-auto rounded-xl relative top-16 left-1 transform -translate-x-1 -translate-y-1 overflow-hidden">
           {children}
         </div>
       </body>
